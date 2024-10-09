@@ -11,7 +11,7 @@ public class LoginPage_POM extends CommonToAllPage {
     }
 
     // Page Locators
-    By username = By.xpath("//input[@placeholder='username']");
+    By username = By.xpath("//input[@placeholder='Username']");
     By password = By.xpath("//input[@type='password']");
     By signButton = By.xpath("//button[@type='submit']");
     By error_message = By.xpath("//p[text()='Invalid credentials']");

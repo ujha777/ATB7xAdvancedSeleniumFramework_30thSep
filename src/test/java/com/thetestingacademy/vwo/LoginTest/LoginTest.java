@@ -8,7 +8,7 @@ import org.assertj.core.api.Assertions;
 import org.testng.annotations.Test;
 
 public class LoginTest extends CommonToAllTest {
-    @Test(priority = 1)
+    @Test( priority = 1)
     public void testLoginNegative() throws Exception {
 
         // How to enter the user, pass and go the Dashboard and verify

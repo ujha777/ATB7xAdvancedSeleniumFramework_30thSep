@@ -16,7 +16,7 @@ public class CommonToAllPage {
 
     // Waits
     public void implicitWait() {
-        DriverManagerTL.getDriver().manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        DriverManagerTL.getDriver().manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
     }
     // Driver Call
 
